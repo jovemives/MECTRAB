@@ -13,8 +13,8 @@ using namespace std;
 #define dbg(x)	cout << #x << " = " << x << endl
 #define all(x)	x.begin(),x.end()
 
-#define gnl cout << endl
-#define olar cout << "olar" << endl
+#define nl cout << endl
+#define sarve cout << "sarve" << endl
 #define fastio ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL) 
 
 typedef long long int ll;
