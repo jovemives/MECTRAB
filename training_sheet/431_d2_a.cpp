@@ -29,28 +29,22 @@ const int MOD = 1e9+7;
 int main(){
     fastio;
     
-	const int N = 1e5 + 10;
-    int n; cin >>n;
-	int v[N];
-
-	fr(i,n) cin >>v[i];
-
-	int crimes = 0, hired = 0, untreated = 0;
-	fr(i,n){
-		if(v[i] > 0){
-			hired += v[i];
-			continue;
-		}
-
-		if(v[i] < 0 and hired > 0){
-			hired -= 1;
-			continue;
-		}
-
-		if(v[i] < 0 and hired < 1) untreated += 1;
+	int a[5];
+	frr(i,4){
+		cin >>a[i];	
 	}
-	
-	cout <<untreated <<endl;
+
+	string s; cin >>s;
+
+	int ans = 0;
+	fr(i,s.size()){
+		if(s[i] == '1') ans += a[1];
+		if(s[i] == '2') ans += a[2];
+		if(s[i] == '3') ans += a[3];
+		if(s[i] == '4') ans += a[4];
+	}
+
+	cout <<ans <<endl;
 
     return 0;
 }
