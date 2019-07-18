@@ -6,8 +6,8 @@ using namespace std;
 #define fi first
 #define se second
 
-#define fr(i,n) 	for(int i=0;i<n;i++)
-#define frr(i,n)	for(int i=1;i<=n;i++)
+#define fori(i,n) 	for(int i=0;i<n;i++)
+#define forj(i,n)	for(int i=1;i<=n;i++)
 
 #define ms(x,i)	memset(x,i,sizeof(x))
 #define dbg(x)	cout << #x << " = " << x << endl
