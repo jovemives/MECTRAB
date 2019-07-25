@@ -15,7 +15,7 @@ using namespace std;
 
 #define next cout << endl
 #define check cout << "check" << endl
-#define fastio ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL) 
+#define fastio ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0) 
 
 typedef long long int ll;
 typedef pair<int,int> pii;
