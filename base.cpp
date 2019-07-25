@@ -5,16 +5,16 @@ using namespace std;
 #define mk make_pair
 #define fi first
 #define se second
+#define eb emplace_back
 
-#define fori(i,n) 	for(int i=0;i<n;i++)
-#define forj(i,n)	for(int i=1;i<=n;i++)
+#define fori(i,a,b) 	for(int i=a;i<b;i++)
 
 #define ms(x,i)	memset(x,i,sizeof(x))
 #define dbg(x)	cout << #x << " = " << x << endl
 #define all(x)	x.begin(),x.end()
 
-#define nl cout << endl
-#define sarve cout << "sarve" << endl
+#define next cout << endl
+#define check cout << "check" << endl
 #define fastio ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL) 
 
 typedef long long int ll;
