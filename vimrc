@@ -1,5 +1,5 @@
 set background=dark
-colo pablo
+colo darkblue
 syntax on
  
 set showmatch		
